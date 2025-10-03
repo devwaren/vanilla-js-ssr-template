@@ -9,7 +9,7 @@ import "./index.css"
 
 export default function App(DOM) {
   const { isDOM } = useJSSSRHydration(DOM)
-  if (!isDOM) return
+  if (!isDOM) return ''
 
   const ui = useJSElements(
     isDOM,
