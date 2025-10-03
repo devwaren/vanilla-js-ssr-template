@@ -7,14 +7,14 @@ export default function Index(DOM) {
     name: 'Home | Vanilla JS SSR',
     description: 'Page Description',
     author: 'Your Name',
-    favicon: 'ts.webp',
+    favicon: 'js.webp',
     title: "Home | Vanilla JS SSR",
   });
 
   let count = 0;
 
   const tsLogo = Img({
-    src: '/ts.webp',
+    src: '/js.webp',
     alt: 'JS Logo',
     width: 100,
     height: 100,
